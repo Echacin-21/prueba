@@ -1,0 +1,30 @@
+.artist {
+    width: 18rem;
+    height: 2.75rem;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: normal;
+    margin: .5rem 0 0 0;
+    color: #FFFFFF;
+    font-family: inter;
+}
+
+@media screen and (min-width: 768px) {
+    .artist {
+        width: 18.4375rem;
+        height: auto;
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .artist {
+        width: 28.5rem;
+        height: 1.375rem;
+        font-size: 1.125rem;
+        font-weight: normal;
+        line-height: 1.375rem;
+    }
+}

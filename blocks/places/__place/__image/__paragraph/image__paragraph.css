@@ -1,0 +1,21 @@
+.image-paragraph {
+    position: absolute;
+    font-size: 1rem;
+    margin: 9.3125rem 1rem 7.9375rem 1rem;
+    width: 18rem;
+    height: 2.75rem;
+    font-weight: 400;
+    color: #000000;
+    font-family: inter;
+    z-index: 4;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .image-paragraph {
+        font-size: 1.125rem;
+        margin: 13.5rem 4.5rem;
+        width: 19.8125rem;
+        height: auto;
+    }
+} 

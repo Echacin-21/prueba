@@ -1,0 +1,23 @@
+.url-heading{
+    width: 18rem;
+    height: .9375rem;
+    font-size: .75rem;
+    line-height: .9375rem;
+    letter-spacing: 0.12em;
+    margin: 0;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin-bottom: .5rem;
+    font-family: inter;
+}
+
+@media screen and (min-width: 768px) {
+    .url-heading{
+        width: 58px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        margin: 0;
+    }
+}

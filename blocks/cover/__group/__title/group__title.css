@@ -1,0 +1,22 @@
+.group__title {
+    width: 18rem;
+    height: 2.1875rem;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #FFFDFD;
+    font-family: inter;
+}
+
+@media screen and (min-width: 768px) {
+    .group__title {
+        width: 41rem;
+        height: 4.75rem;
+        margin: 0;
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+}

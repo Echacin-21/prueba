@@ -1,0 +1,14 @@
+.logo__h {
+    background: #2A2C2F;
+    width: 2rem;
+    height: .125rem;
+    position: absolute;
+    margin-top: .375rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 320px) {
+    .logo__h {
+        width: 1.5rem;
+    }
+}

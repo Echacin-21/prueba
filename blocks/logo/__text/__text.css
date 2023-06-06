@@ -1,0 +1,14 @@
+.logo__text{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    width: 17.5rem;
+    text-align: center;
+    font-family: inter;
+}
+
+@media screen and (max-width: 320px) {
+    .logo__text{
+        font-size: .9375rem;
+        margin-bottom: 1.0625rem;
+    }
+}

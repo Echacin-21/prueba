@@ -1,0 +1,26 @@
+.lead__title{
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    width: 18rem;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-family: inter;
+}
+
+@media (min-width: 48rem){
+    .lead__title{
+        width: 45rem;
+        font-size: 6rem;
+        line-height: 6.25rem;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__title{
+        width: 49.5625rem;
+    }
+}

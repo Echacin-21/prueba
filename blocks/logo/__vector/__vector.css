@@ -1,0 +1,17 @@
+.logo__vector {
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0;
+    background: #0278FE;
+    border-radius: .3125rem;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .logo__vector {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

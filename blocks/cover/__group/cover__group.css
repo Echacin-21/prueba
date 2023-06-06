@@ -1,0 +1,25 @@
+.group{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.875rem 1rem 2.8125rem 1rem;
+    width: 18rem;
+    height: 10.1875rem;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {   
+    .group{
+        margin: 15.375rem 3.5rem;
+        width: 41rem;
+        height: 15.875rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {   
+    .group{
+        margin:  15.1875rem 16.5rem;
+    }
+}

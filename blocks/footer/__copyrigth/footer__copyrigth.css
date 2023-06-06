@@ -1,0 +1,11 @@
+.footer__copyrigth{
+    width: 11.9375rem;
+    height: 1rem;
+    margin: 0;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1rem;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: inter;
+}

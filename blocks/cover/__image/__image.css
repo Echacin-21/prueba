@@ -1,0 +1,25 @@
+.cover__image {
+    width: 20rem;
+    height: 15.875rem;
+}
+
+.group:hover+.cover__image {
+    opacity: 0.7;
+}
+
+.cover__image:hover {
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+    .cover__image {
+        width: 48rem;
+        height: 46.625rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .cover__image {
+        width: 74rem;
+        height: 46.25rem;
+    }
+}
