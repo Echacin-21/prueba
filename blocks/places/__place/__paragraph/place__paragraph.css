@@ -1,7 +1,7 @@
 .place__paragraph {
     margin: 0;
     align-self: center;
-    font-size: .875remç;
+    font-size: .875rem;
     width: 18rem;
     line-height: 1.625rem;
     height: auto;
@@ -101,10 +101,7 @@
 
 
     .place .place__paragraph:nth-child(5){
-        /* margin-top: 17.25rem; */
         height: 14.5rem;
-    }
-    .place .place__paragraph:nth-child(5){
         grid-row-start: 3;
     }
     
@@ -118,7 +115,7 @@
         height: auto;
     }
     .place:nth-child(1) .place__paragraph:nth-child(4){
-        height: 210px;;
+        height: 210px;
     }
     .place:nth-child(1) .place__paragraph:nth-child(5){
         height: 235px;

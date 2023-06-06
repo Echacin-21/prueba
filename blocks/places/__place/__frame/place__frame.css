@@ -1,17 +1,18 @@
-.frame-button {
+.place__frame {
   width: 18rem;
   height: 3rem;
   border-radius: .25rem;
   margin: .5rem 1rem 1.25rem 1rem;
   background: #0278FE;
+  color: white;
   border: none;
 }
 
-.place:nth-child(5) .frame-button:nth-child(5) {
+.place:nth-child(5) .place__frame:nth-child(5) {
   margin-top: 0;
 }
 
-.frame-button:hover {
+.place__frame:hover {
   background: #006dd2;
 }
 
@@ -21,12 +22,9 @@
     grid-column-end: 2;
     grid-row-start: 3;
     margin-top: 3.5rem;
+    margin-left: 0;
     height: 3rem;
-  }
-
-  .frame-button {
     width: 22.1875rem;
-    margin: 0;
   }
 
   .place:nth-child(1) .place__frame:nth-child(6) {
@@ -39,6 +37,11 @@
 
   .place:nth-child(4) .place__frame:nth-child(7) {
     margin-top: 160px;
+  }
+
+  .place:nth-child(5) .place__frame:nth-child(5) {
+    margin: 0;
+    margin-top: 48px;
   }
 }
 
@@ -65,7 +68,7 @@
     margin-top: 3rem;
   }
 
-  .place:nth-child(5) .frame-button:nth-child(5) {
+  .place:nth-child(5) .place__frame:nth-child(5) {
     margin: 0;
     margin-top: 48px;
   }

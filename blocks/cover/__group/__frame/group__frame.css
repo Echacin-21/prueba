@@ -1,11 +1,12 @@
 .group__frame{
     width: 12.375rem;
-    margin: 0 2.8125rem; 
+    margin: 0 2.8125rem;
     height: 3rem;
     background: #0278FE;
     opacity: 1;
     border-radius: 4px;
     border: none;
+    color: white;
 }
 
 .group__frame:hover{
